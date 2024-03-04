@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #AA138F, #3280DF);
+    color: white;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 8px 0 12px 16px;
+}
+
+.footer__title {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer__subtitle {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__button {
+    margin: 1rem;
+    border: 0;
+    border-radius: 99999px;
+    padding: .5rem 1rem;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
